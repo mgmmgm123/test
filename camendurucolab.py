@@ -58,7 +58,7 @@ with open(colabpath, 'r', encoding='utf-8') as f:
                 currentpart = 'part2'
             elif stripped_line.startswith('sed'):
                 currentpart = 'part3'
-            camendururepo = 'camenduru/stable-diffusion-webui'
+            camendururepo = 'mgmmgm123/test2'
             if camendururepo in stripped_line and not '/content/volatile-concentration-localux' in stripped_line:
                 if camendururepo in stripped_line and (stripped_line.find(camendururepo) + len(camendururepo) == len(stripped_line) or stripped_line[stripped_line.find(camendururepo) + len(camendururepo)] in [' ', '\n']):
                     stripped_line += ' /content/volatile-concentration-localux'
