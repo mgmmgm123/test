@@ -31,7 +31,7 @@ if os.path.exists('/content/colaboptions.pkl'):
 #     partargs = sys.argv[3]
 #     parttoexecute = partargs
 
-colabpath = f"/content/camendurus/{currentbranch}/{filename}"
+colabpath = f"/content/mgmmgm123/{currentbranch}/{filename}"
 if debugmode==True:
     colabpath = r"C:\Users\Ethereal\Downloads\526_mix_webui_colab.ipynb"
 
