@@ -3,7 +3,7 @@ import os, subprocess, sys, shlex, pickle
 curdir = '/content'
 branch = '-b uiupdate+aria ' #'-b ariacivitnew ' <-space in the end
 linetoexecute = [
-    'git clone -b v2.1 https://github.com/camenduru/stable-diffusion-webui /content/volatile-concentration-localux', 
+    'git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui /content/volatile-concentration-localux', 
     f'git clone {branch}https://github.com/etherealxx/batchlinks-webui /content/volatile-concentration-localux/extensions/batchlinks-webui'
     ]
 
